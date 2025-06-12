@@ -1,0 +1,25 @@
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+input{
+    width: 35vw;
+}
+.add{
+    width: 10vw;
+}
